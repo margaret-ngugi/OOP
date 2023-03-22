@@ -17,7 +17,7 @@ val toyo = Car("Toyota","Prado","KDG 112B",0)
 
     audi.stop()
         println(audi.speed)
-var myBook = Book("Born a crime","Trevor Noah"288,2017)
+var myBook = Book("Born a crime","Trevor Noah",288,2017)
     println(myBook.title)
     println(myBook.pages)
 
@@ -45,5 +45,5 @@ class Car(var make:String,var model:String,var registration:String,var speed: In
     }
 }
 data class Book(var title:String,var author:String,var pages:Int,var year:Int)
-data class AgeStatus(var max:Int,var min,var mean:Double,var medium:Double)
+data class AgeStatus(var max:Int,var min:Int,var mean:Double,var medium:Double)
 
